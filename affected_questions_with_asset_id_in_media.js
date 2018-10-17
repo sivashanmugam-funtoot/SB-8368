@@ -41,13 +41,15 @@ fs.readFile('affected_questions.json', function (err, data) {
 
 function isAssetIdExistsInUrl(url, questionId, position, type) {
     
+    //This condition removes double slash in URL ( /assets/public//content/do_3125961201157734402649/artifact/q10a_1537612318999.jpg )
     if(url.indexOf('//') != -1){
-        url = url.replace('//', '/');
+        url = url.replace('//', '/'); 
     }
 
     var assetId = url.split('/')[4];
     var valid = false;
     if(assetId != undefined){
+        // This is to exclude cases /assets/public/content/do_hen_536_1475732756_1475732769795.png
         if(assetId.indexOf('.') == -1 && assetId.indexOf('do_') != -1){
             valid = true;
         }
