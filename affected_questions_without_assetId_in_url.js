@@ -6,7 +6,7 @@ const { createLogger, transports } = winston;
 const logger = createLogger({
     transports: [
         new transports.Console(),
-        new transports.File({ filename: 'all.log' })
+        new transports.File({ filename: 'affected_questions_without_assetId_in_url.log' })
     ]
 })
 
@@ -65,7 +65,7 @@ function isAssetIdExistsInUrl(url, questionId, position, type) {
     }
 
     if (valid == false) {
-        logger.info(`URL ${url} ------- QID ${questionId} -------- POSITION ${position} ------- TYPE ${type} \n`);
+        logger.info(`${url} ------- ${questionId} -------- ${position} ------- TYPE ${type} \n`);
     }
 
 }
