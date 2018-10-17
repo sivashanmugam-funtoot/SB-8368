@@ -1,8 +1,17 @@
 var fs = require('fs');
 var _ = require('lodash');
+var winston = require('winston');
+
+const { createLogger, transports } = winston;
+const logger = createLogger({
+    transports: [
+        new transports.Console(),
+        new transports.File({ filename: 'all.log' })
+    ]
+})
 
 fs.readFile('affected_questions.json', function (err, data) {
-    if(err){
+    if (err) {
         throw err;
     }
     var files = JSON.parse(data);
@@ -19,7 +28,7 @@ fs.readFile('affected_questions.json', function (err, data) {
             for (var i = 0; i < lhs.length; i++) {
 
                 if (lhs[i].image.length != 0) {
-                    isAssetIdExistsInUrl(lhs[i].image, file, `LHS[${i}]`, 'image');           
+                    isAssetIdExistsInUrl(lhs[i].image, file, `LHS[${i}]`, 'image');
                 }
 
                 if (lhs[i].audio.length != 0) {
@@ -40,23 +49,23 @@ fs.readFile('affected_questions.json', function (err, data) {
 })
 
 function isAssetIdExistsInUrl(url, questionId, position, type) {
-    
+
     //This condition removes double slash in URL ( /assets/public//content/do_3125961201157734402649/artifact/q10a_1537612318999.jpg )
-    if(url.indexOf('//') != -1){
-        url = url.replace('//', '/'); 
+    if (url.indexOf('//') != -1) {
+        url = url.replace('//', '/');
     }
 
     var assetId = url.split('/')[4];
     var valid = false;
-    if(assetId != undefined){
+    if (assetId != undefined) {
         // This is to exclude cases /assets/public/content/do_hen_536_1475732756_1475732769795.png
-        if(assetId.indexOf('.') == -1 && assetId.indexOf('do_') != -1){
+        if (assetId.indexOf('.') == -1 && assetId.indexOf('do_') != -1) {
             valid = true;
         }
     }
 
-    if(valid == false){
-        console.log(`URL ${url} ------- QID ${questionId} -------- POSITION ${position} ------- TYPE ${type} \n`);
+    if (valid == false) {
+        logger.info(`URL ${url} ------- QID ${questionId} -------- POSITION ${position} ------- TYPE ${type} \n`);
     }
 
 }

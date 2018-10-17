@@ -1,0 +1,24 @@
+{
+  "name": "sb-8368",
+  "version": "1.0.0",
+  "description": "Error to fix SB-8368",
+  "main": "affected_questions_with_asset_id_in_media.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivashanmugam-funtoot/SB-8368.git"
+  },
+  "author": "sivashanmugam.kannan@funtoot.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivashanmugam-funtoot/SB-8368/issues"
+  },
+  "homepage": "https://github.com/sivashanmugam-funtoot/SB-8368#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "winston": "^3.1.0"
+  }
+}
