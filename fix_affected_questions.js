@@ -31,7 +31,12 @@ var patch_options_base = {
     },
     body: {
         request:{
-            
+            assessment_item:{
+                objectType: "AssessmentItem",
+                metaData : {
+
+                }
+            }
         }
     },
     json: true
@@ -140,4 +145,18 @@ function patchStart(data, body){
     }).catch(function(err){
         console.log(err);
     })
+}
+
+function removeUnwantedPropertiesForPatch(Obj){
+    var propertiesToRemove = ["status", "versionKey", "consumerId", "lastUpdatedOn", "appId", "createdOn"];
+    _.each(propertiesToRemove, function(prop){
+        delete Obj[prop];
+    })
+    return Obj;
+}
+
+function addPropertiesForPatch(Obj){
+    var newProperty = "questionTitle";
+    Obj[newProperty] = Obj.title;
+    return Obj;
 }

@@ -1,0 +1,10 @@
+status
+versionKey
+consumerId
+lastUpdatedOn
+appId
+createdOn
+language
+
+to add
+questionTitle

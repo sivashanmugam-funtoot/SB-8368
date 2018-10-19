@@ -1,0 +1,205 @@
+{
+    "assessment_item": {
+      "objectType": "AssessmentItem",
+      "metadata": {
+        "code": "NA",
+        "isShuffleOption": false,
+        "body": "{\"data\":{\"plugin\":{\"id\":\"org.ekstep.questionunit.mtf\",\"version\":\"1.1\",\"templateId\":\"horizontalMTF\"},\"data\":{\"question\":{\"text\":\"<p>SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see</p>\\n\",\"image\":\"\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\"},\"option\":{\"optionsLHS\":[{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470374092800111945/artifact/1_1538997848501.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":1,\"$$hashKey\":\"object:1213\"},{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470477189120111946/artifact/2_1538997861076.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":2,\"$$hashKey\":\"object:1214\"},{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470587437056211710/artifact/3_1538997874626.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":3,\"$$hashKey\":\"object:1215\"}],\"optionsRHS\":[{\"text\":\"\",\"image\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":1},{\"text\":\"\",\"image\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":2},{\"text\":\"\",\"image\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":3}],\"questionCount\":0},\"media\":[{\"id\":154408954,\"src\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"assetId\":\"do_312471118833278976118733\",\"type\":\"image\",\"preload\":false},{\"id\":830772325,\"src\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"assetId\":\"do_3122205261253754881791\",\"type\":\"image\",\"preload\":false},{\"id\":853313778,\"src\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"assetId\":\"do_312473093254119424119498\",\"type\":\"image\",\"preload\":false}]},\"config\":{\"metadata\":{\"data\":{\"plugin\":{\"id\":\"org.ekstep.questionunit.mtf\",\"version\":\"1.1\",\"templateId\":\"horizontalMTF\"},\"data\":{\"question\":{\"text\":\"<p>SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see</p>\\n\",\"image\":\"\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\"},\"option\":{\"optionsLHS\":[{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470374092800111945/artifact/1_1538997848501.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":1,\"$$hashKey\":\"object:1213\"},{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470477189120111946/artifact/2_1538997861076.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":2,\"$$hashKey\":\"object:1214\"},{\"text\":\"\",\"image\":\"/assets/public/content/do_312607470587437056211710/artifact/3_1538997874626.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"index\":3,\"$$hashKey\":\"object:1215\"}],\"optionsRHS\":[{\"text\":\"\",\"image\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":1},{\"text\":\"\",\"image\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":2},{\"text\":\"\",\"image\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"audio\":\"\",\"audioName\":\"\",\"hint\":\"\",\"mapIndex\":3}],\"questionCount\":0},\"media\":[{\"id\":154408954,\"src\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"assetId\":\"do_312471118833278976118733\",\"type\":\"image\",\"preload\":false},{\"id\":830772325,\"src\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"assetId\":\"do_3122205261253754881791\",\"type\":\"image\",\"preload\":false},{\"id\":853313778,\"src\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"assetId\":\"do_312473093254119424119498\",\"type\":\"image\",\"preload\":false}]},\"config\":{\"metadata\":{\"max_score\":1,\"isShuffleOption\":false,\"isPartialScore\":true,\"templateType\":\"Horizontal\",\"name\":\"SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\\n\",\"title\":\"SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\\n\",\"board\":\"NCERT\",\"medium\":\"English\",\"gradeLevel\":[\"Class 1\"],\"subject\":\"English\",\"qlevel\":\"EASY\",\"category\":\"MTF\"},\"max_time\":0,\"max_score\":1,\"partial_scoring\":true,\"layout\":\"Horizontal\",\"isShuffleOption\":false,\"questionCount\":1},\"media\":[{\"id\":154408954,\"src\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"assetId\":\"do_312471118833278976118733\",\"type\":\"image\",\"preload\":false},{\"id\":830772325,\"src\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"assetId\":\"do_3122205261253754881791\",\"type\":\"image\",\"preload\":false},{\"id\":853313778,\"src\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"assetId\":\"do_312473093254119424119498\",\"type\":\"image\",\"preload\":false}]},\"medium\":\"English\",\"questionTitle\":\"SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\\n\",\"qlevel\":\"EASY\",\"subject\":\"English\",\"board\":\"NCERT\",\"templateType\":\"Horizontal\",\"isPartialScore\":true,\"gradeLevel\":[\"Class 1\"],\"isShuffleOption\":false,\"max_score\":1,\"name\":\"SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\\n\",\"title\":\"SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\\n\",\"category\":\"MTF\"},\"max_time\":0,\"max_score\":1,\"partial_scoring\":true,\"layout\":\"Horizontal\",\"isShuffleOption\":false,\"questionCount\":1},\"media\":[{\"id\":154408954,\"src\":\"/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg\",\"assetId\":\"do_312471118833278976118733\",\"type\":\"image\",\"preload\":false},{\"id\":830772325,\"src\":\"/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png\",\"assetId\":\"do_3122205261253754881791\",\"type\":\"image\",\"preload\":false},{\"id\":853313778,\"src\":\"/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png\",\"assetId\":\"do_312473093254119424119498\",\"type\":\"image\",\"preload\":false}]}}",
+        "itemType": "UNIT",
+        "version": 2,
+        "category": "MTF",
+        "createdBy": "0e0b5ca2-cdd4-42eb-9c91-f909e3f175f7",
+        "channel": "0123221758376673287017",
+        "type": "mtf",
+        "template": "NA",
+        "template_id": "NA",
+        "framework": "NCF",
+        "data": {
+          "plugin": {
+            "id": "org.ekstep.questionunit.mtf",
+            "version": "1.1",
+            "templateId": "horizontalMTF"
+          },
+          "data": {
+            "question": {
+              "text": "<p>SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see</p>\n",
+              "image": "",
+              "audio": "",
+              "audioName": "",
+              "hint": ""
+            },
+            "option": {
+              "optionsLHS": [
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_312607470374092800111945/artifact/1_1538997848501.png",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "index": 1,
+                  "$$hashKey": "object:1213"
+                },
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_312607470477189120111946/artifact/2_1538997861076.jpg",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "index": 2,
+                  "$$hashKey": "object:1214"
+                },
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_312607470587437056211710/artifact/3_1538997874626.jpg",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "index": 3,
+                  "$$hashKey": "object:1215"
+                }
+              ],
+              "optionsRHS": [
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "mapIndex": 1
+                },
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "mapIndex": 2
+                },
+                {
+                  "text": "",
+                  "image": "/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png",
+                  "audio": "",
+                  "audioName": "",
+                  "hint": "",
+                  "mapIndex": 3
+                }
+              ],
+              "questionCount": 0
+            },
+            "media": [
+              {
+                "id": 154408954,
+                "src": "/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg",
+                "assetId": "do_312471118833278976118733",
+                "type": "image",
+                "preload": false
+              },
+              {
+                "id": 830772325,
+                "src": "/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png",
+                "assetId": "do_3122205261253754881791",
+                "type": "image",
+                "preload": false
+              },
+              {
+                "id": 853313778,
+                "src": "/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png",
+                "assetId": "do_312473093254119424119498",
+                "type": "image",
+                "preload": false
+              }
+            ]
+          },
+          "config": {
+            "metadata": {
+              "max_score": 1,
+              "isShuffleOption": false,
+              "isPartialScore": true,
+              "templateType": "Horizontal",
+              "name": "SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\n",
+              "title": "SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\n",
+              "board": "NCERT",
+              "medium": "English",
+              "gradeLevel": [
+                "Class 1"
+              ],
+              "subject": "English",
+              "qlevel": "EASY",
+              "category": "MTF"
+            },
+            "max_time": 0,
+            "max_score": 1,
+            "partial_scoring": true,
+            "layout": "Horizontal",
+            "isShuffleOption": false,
+            "questionCount": 1
+          },
+          "media": [
+            {
+              "id": 154408954,
+              "src": "/assets/public/content/do_312471118833278976118733/artifact/one_4165_1522353373_1522353373499.jpg",
+              "assetId": "do_312471118833278976118733",
+              "type": "image",
+              "preload": false
+            },
+            {
+              "id": 830772325,
+              "src": "/assets/public/content/do_3122205261253754881791/artifact/two_two_new_1815_1491763680_1491763473868.png",
+              "assetId": "do_3122205261253754881791",
+              "type": "image",
+              "preload": false
+            },
+            {
+              "id": 853313778,
+              "src": "/assets/public/content/do_312473093254119424119498/artifact/assetsquarter-clip-art-three-quarters-math-fraction_2453_1522594391_1522594391611.png",
+              "assetId": "do_312473093254119424119498",
+              "type": "image",
+              "preload": false
+            }
+          ]
+        },
+        "medium": "English",
+        "questionTitle": "SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\n",
+        "qlevel": "EASY",
+        "subject": "English",
+        "board": "NCERT",
+        "templateType": "Horizontal",
+        "isPartialScore": true,
+        "gradeLevel": [
+          "Class 1"
+        ],
+        "max_score": 1,
+        "name": "SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\n",
+        "title": "SB-8367 - Test content , Not for usage - Delete after Nov 1 2018 if you see\n",
+        "lhs_options": [
+          {
+            "value": {
+              "type": "mixed",
+              "text": "इक",
+              "image": "",
+              "count": "",
+              "audio": "",
+              "resvalue": "इक",
+              "resindex": 0
+            },
+            "index": 0
+          }
+        ],
+        "rhs_options": [
+          {
+            "value": {
+              "type": "mixed",
+              "text": "इक",
+              "image": "",
+              "count": "",
+              "audio": "",
+              "resvalue": "इक",
+              "resindex": 0
+            },
+            "index": 0
+          }
+        ]
+      },
+      "outRelations": []
+    }
+  }
