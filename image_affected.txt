@@ -1,0 +1,36 @@
+IDS
+do_312585424730021888115820
+do_3125972811956060161930
+do_312611830658990080134
+do_312610933185003520212932
+do_3126129628193996801238
+do_3126129902259814402478
+do_3126124472131993602396hnj
+
+{"message":"/assets/public//content/1468233992305cow.png ------- do_312585424730021888115820 -------- LHS[0] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1467033655088cat.png ------- do_312585424730021888115820 -------- LHS[1] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1468227650425dog2.png ------- do_312585424730021888115820 -------- LHS[2] ------- TYPE image \n","level":"info"}
+
+{"message":"/assets/public//content/bf15d326d7a9a5978d33826a12a7e5ef_1477034991473.jpeg ------- do_3125972811956060161930 -------- LHS[2] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/teacher_module_on_4.pptx_371_1473163689_1473163697831.jpg ------- do_3125972811956060161930 -------- RHS[2] ------- TYPE image \n","level":"info"}
+
+{"message":"/assets/public//content/1455104391009monkey.png ------- do_312611830658990080134 -------- RHS[0] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1467033658198bear.png ------- do_312611830658990080134 -------- RHS[1] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1467033652302squirrel.png ------- do_312611830658990080134 -------- RHS[2] ------- TYPE image \n","level":"info"}
+
+
+{"message":"/assets/public//content/1455104391009monkey.png ------- do_312610933185003520212932 -------- RHS[0] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1467033658198bear.png ------- do_312610933185003520212932 -------- RHS[1] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public//content/1467033652302squirrel.png ------- do_312610933185003520212932 -------- RHS[2] ------- TYPE image \n","level":"info"}
+
+{"message":"/assets/public/content/hen_536_1475732756_1475732769795.png ------- do_3126129628193996801238 -------- LHS[0] ------- TYPE image \n","level":"info"}
+{"message":"/assets/public/content/hen_536_1475732756_1475732769795.png ------- do_3126129902259814402478 -------- LHS[0] ------- TYPE image \n","level":"info"}
+
+
+
+
+OTHER
+{"message":"https://ntpproductionall.blob.core.windows.net/ntp-content-production/content/do_3126124409733939202389/artifact/fox_1539604611148.jpg ------- do_3126124472131993602396 -------- LHS[2] ------- TYPE image \n","level":"info"}
+{"message":"https://ntpproductionall.blob.core.windows.net/ntp-content-production/content/do_3126124408305664001168/artifact/girafi_1539604593737.jpg ------- do_3126124472131993602396 -------- RHS[2] ------- TYPE image \n","level":"info"}
+{"message":"https://ntpproductionall.blob.core.windows.net/ntp-content-production/content/do_3126124413270999042390/artifact/hippo_1539604654334.jpg ------- do_3126124472131993602396 -------- LHS[3] ------- TYPE image \n","level":"info"}
+{"message":"https://ntpproductionall.blob.core.windows.net/ntp-content-production/content/do_3126124407080304642388/artifact/lion_1539604578728.jpg ------- do_3126124472131993602396 -------- RHS[3] ------- TYPE image \n","level":"info"}

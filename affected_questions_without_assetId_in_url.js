@@ -49,8 +49,9 @@ fs.readFile('affected_questions.json', function (err, data) {
 })
 
 function isAssetIdExistsInUrl(url, questionId, position, type) {
-
     //This condition removes double slash in URL ( /assets/public//content/do_3125961201157734402649/artifact/q10a_1537612318999.jpg )
+    logger.info(`${url} ------- ${questionId} -------- ${position} ------- TYPE ${type} \n`);
+    return;
     if (url.indexOf('//') != -1) {
         url = url.replace('//', '/');
     }

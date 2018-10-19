@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sivashanmugam-funtoot/SB-8368#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "lodash": "^4.17.11",
     "request": "^2.88.0",
     "winston": "^3.1.0"
