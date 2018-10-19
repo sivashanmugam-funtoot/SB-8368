@@ -14,16 +14,6 @@ var affectedQuestions = [
     "do_3126137118316625921514"
 ];
 
-var get_options_base = {
-    method: 'GET',
-    url: 'https://diksha.gov.in/action/assessment/v3/items/read/',
-    headers:
-    {
-        'postman-token': '18ae520d-cb5a-6c6c-bae0-0663babeaf25',
-        'cache-control': 'no-cache'
-    }
-};
-
 var patch_options_base = {
     method: 'PATCH',
     url: 'https://diksha.gov.in/action/assessment/v3/items/update/',
