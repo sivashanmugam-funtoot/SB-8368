@@ -11,7 +11,7 @@ var value = {
 }
 /* root Variables */
 var affectedQuestions = [
-    "do_3126137118316625921514"
+    "do_3126129628193996801238"
 ];
 
 var patch_options_base = {
@@ -33,9 +33,10 @@ var patch_options_base = {
         request:{
             assessment_item:{
                 objectType: "AssessmentItem",
-                metaData : {
+                metadata : {
 
-                }
+                },
+                outRelations: []
             }
         }
     },
@@ -56,9 +57,10 @@ function readFilePromise(file) {
     return new Promise(function (resolve, reject) { fs.readFile(file, function (err, data) { if (err) reject(err); else resolve(data) }) })
 }
 
-readFilePromise('./my_questions/' + affectedQuestions[0] + '.json').then(function (data) {
+readFilePromise('./affected_questions/' + affectedQuestions[0] + '.json').then(function (data) {
     data = JSON.parse(data);
     var body = JSON.parse(data.result.assessment_item.body);
+    var dataProp = data.result.assessment_item.data;
     var lhs = body.data.data.option.optionsLHS;
     var rhs = body.data.data.option.optionsRHS;
     var questionMedia = body.data.media;
@@ -129,15 +131,26 @@ readFilePromise('./my_questions/' + affectedQuestions[0] + '.json').then(functio
         }
     })
 
-    value.after = _.cloneDeep(questionMedia);
+    if(dataProp) {
+        console.log('data_property_exists')
+        dataProp = JSON.parse(dataProp);
+        dataProp.data.media = questionMedia;
+        dataProp.media = questionMedia;
+        value = dataProp;
+        data.result.assessment_item.data = JSON.stringify(dataProp);
+    }
+    body.data.data.media = questionMedia;
+    data.result.assessment_item.body = JSON.stringify(body);
+    removeUnwantedPropertiesForPatch(data.result.assessment_item)
+    addPropertiesForPatch(data.result.assessment_item);
     patchStart(data.result, body)
+    
 })  
 
-function patchStart(data, body){
+function patchStart(data){
     var patchOption = _.cloneDeep(patch_options_base);
     patchOption.url = patchOption.url + data.assessment_item.identifier;
-    data.assessment_item.body = JSON.stringify(body);
-    patchOption.body.request = data;
+    patchOption.body.request.assessment_item.metadata = data.assessment_item;
     value = patchOption;
     requestPromise(patchOption).then(function(data){
         value = data;
